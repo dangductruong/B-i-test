@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    
+}
+.button{
+    background-color: rgb(77, 150, 150);
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin: 0 3px;
+    cursor: pointer;
+&:hover{
+    background-color:  rgb(103, 171, 171);
+}
+}
+.icon{
+    text-align: center;
+}

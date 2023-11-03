@@ -1,0 +1,55 @@
+.wrapper{
+    height: 100px;
+    width: 100%;
+    padding: 0 14px;
+    background-color: #000000;
+    display: flex;
+    justify-content:space-between ;
+}
+.logo{
+    padding-top: 6px;
+    width: 142px;
+    height: 70px;
+    
+}
+.slogan{
+    color: white;
+margin-left: 6px;
+display: flex;
+align-items: center;
+font-size: 3rem;
+flex: 1;
+}
+.inner{
+display: flex;
+}
+//actions
+.actions{
+display: flex;
+align-items: center;
+
+}
+
+.logo-home,.logo-admin,
+.logo-user{
+    color: rgb(184, 182, 182);
+    font-size: 2rem;
+}
+.sortDown{
+    color: rgb(184, 182, 182);
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+.text-home,.text-admin,
+.text-user{
+        padding-left: 5px;
+        color: rgb(184, 182, 182);
+        font-size: 1.8rem;
+        margin: 0 7px;      
+}
+.home,.admin,.userName{
+    cursor: pointer;
+}
+.admin{
+    margin: 0 20px;
+}
